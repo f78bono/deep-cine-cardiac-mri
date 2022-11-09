@@ -28,7 +28,7 @@ variants:
 - **3D** - each 2+1D volume is processed as a whole; model is isotropic towards
 each dimension
 - **XT** - two copies of each volume are rotated in the two 2D spatio-temporal
-domains (*x-t plane* and *y-t* plane), respectively, then processed by separate
+domains (*x-t* plane and *y-t* plane), respectively, then processed by separate
 image correction networks and finally recombined
 - **XF** - same as for 'XT', but volume firstly undergoes an FFT along the temporal
 dimension to sparsify the domain
