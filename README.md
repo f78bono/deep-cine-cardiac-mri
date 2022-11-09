@@ -45,13 +45,15 @@ git clone https://github.com/f78bono/deep-cine-cardiac-mri.git
 - Set up a BART environment following the instruction in this [notebook](./notebooks/BART_setup.ipynb)
 - Change the paths in the following files according to your root directory:
 ```
-1) traintest_scripts/dirs_path.yaml
+# traintest_scripts/dirs_path.yaml
 data_path: /path/to/data
 log_path: /root/traintest_scripts
 save_path: /root/results
-2) reconstruction/pl_modules/mri_module
+
+# reconstruction/pl_modules/mri_module
 path_config = pathlib.Path("/root/traintest_scripts/dirs_path.yaml")
-3) traintest_scripts/model/train_test_model.py
+
+# traintest_scripts/model/train_test_model.py
 path_config = pathlib.Path("/root/traintest_scripts/dirs_path.yaml")
 ```
 
