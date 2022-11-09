@@ -18,7 +18,7 @@ The underlying architecture for all proposed models is based on the cross-domain
 network with unrolled optimisation. A high-level diagram of the architecture is
 shown below:
 
-<img src="./docs/crossnet.png" width="500"/>
+<img src="./docs/crossnet.png" width="100"/>
 
 The dynamic aspect of the MRI data is taken into account by adjusting the models
 to process 2+1D data volumes and exploit the inherent temporal redundancies of
