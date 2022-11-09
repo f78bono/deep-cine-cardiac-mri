@@ -100,7 +100,7 @@ plus the arguments needed for the model under consideration.
 A detailed description of each argument can be found in the source code.
 
 ## Evaluation
-A qualitative assessment of the models was perfomed by visualing the reconstructed
+A qualitative assessment of the models was perfomed by direct observation of the reconstructed
 output along with the absolute error between normalised target and output. Check this
 [notebook](./notebooks/reconstruction_visualisation.ipynb) for a visual comparison of
 the different model outputs.
